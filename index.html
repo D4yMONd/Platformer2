@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра-платформер</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div id="gameInfo">
+            <span id="levelDisplay">Level: 1</span>
+            <span id="livesDisplay">Lives: 3</span>
+            <span id="scoreDisplay">Score: 0</span>
+        </div>
+        <div class="controls">
+            <p>Используйте клавиши со стрелками для перемещения и пробел для прыжка</p>
+        </div>
+    </div>
+
+    <script src="js/platform.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/coin.js"></script>
+    <script src="js/enemy.js"></script>
+    <script src="js/input.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>
